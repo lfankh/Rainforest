@@ -10,7 +10,7 @@ def rainforest_challenge(y):
 		new = main_url + next_url.split("=")[-1]
 		rainforest_challenge(new)
 	else:
-           #Show output if it exists
+           	#Show output if it exists
 		print y.text
 
 if __name__ == "__main__":
